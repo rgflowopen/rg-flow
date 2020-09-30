@@ -111,13 +111,13 @@ After the network is trained, `plot_mix_temperature.py` can be used to plot samp
 
 ![High-level factor: gender](docs/gender_video.gif)
 
-### Mid-level factor: light direction
+### High-level factor: light direction
 
-![Mid-level factor: light direction](docs/projection_video.gif)
+![High-level factor: light direction](docs/projection_video.gif)
 
-### Mid-level factor: rotation
+### High-level factor: rotation
 
-![Mid-level factor: rotation](docs/rotation_video.gif)
+![High-level factor: rotation](docs/rotation_video.gif)
 
 ## Face mixing in the scaling direction
 
