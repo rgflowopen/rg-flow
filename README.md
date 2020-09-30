@@ -12,7 +12,7 @@ The code requires `Python >= 3.7` and `PyTorch >= 1.6`, with optional CUDA suppo
 
 # Running experiments
 
-`main.py` is the code for training the network. All adjustable arguments are stored in `args.py`, together with their default values when we were training on the CelebA datset. They can be displayed via `python main.py --help`:
+`main.py` is the code for training the network. All adjustable arguments are stored in `args.py`, together with their default values when we were training on the CelebA dataset. They can be displayed via `python main.py --help`:
 
 ```
 usage: main.py [-h] [--data {celeba32,celeba64,mnist32,cifar10,chair600}] [--data_path DATA_PATH]
