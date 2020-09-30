@@ -13,11 +13,10 @@ group.add_argument(
     default='celeba32',
     choices=['celeba32', 'celeba64', 'mnist32', 'cifar10', 'chair600'],
     help='dataset name')
-group.add_argument(
-    '--data_path',
-    type=str,
-    default='./data',    # You should put your dataset directory here
-    help='dataset path')
+group.add_argument('--data_path',
+                   type=str,
+                   default='./data',
+                   help='dataset path')
 group.add_argument('--nchannels',
                    type=int,
                    default=3,
@@ -109,7 +108,7 @@ group.add_argument('-o',
                    '--out_dir',
                    type=str,
                    default='./saved_model',
-                   help='directory prefix for output, empty for disabled')
+                   help='directory for output, empty for disabled')
 
 args = parser.parse_args()
 

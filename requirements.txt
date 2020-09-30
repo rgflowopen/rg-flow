@@ -1,5 +1,5 @@
-matplotlib
-numpy
-scikit-image
-torch
-torchvision
+matplotlib>=3.3
+numpy>=1.19
+scikit-image>=0.17
+torch>=1.6
+torchvision>=0.7
