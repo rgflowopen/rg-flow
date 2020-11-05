@@ -2,6 +2,8 @@
 
 This repository contains the code for the paper "RG-Flow: A hierarchical and explainable flow model based on renormalization group and sparse prior".
 
+Flow-based generative models have become an important class of unsupervised learning approaches. In this work, we incorporate the key ideas of *renormalization group* (RG) and *sparse prior distribution* to design a hierarchical flow-based generative model, called **RG-Flow**, which can separate different scale information of images with disentangled representations at each scale.
+
 TODO: add the link and the bibtex entry to the paper
 
 # Dependencies
